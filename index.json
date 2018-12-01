@@ -1,0 +1,34 @@
+{
+    "type":"MCU",
+    "name":"CH32X035",
+    "title": "WCH MCU CH32X035",
+    "description":"WCH RISC-V3C USB-PD MCU",
+    "version":"1.0.0",
+    "Core": {
+        "num": 1,
+        "type":"RISC-V3C",
+        "Freq": 48,
+        "DMIPS": 100,
+        "CoreMark": 160
+    },
+    "manufacturer": {
+        "vendor":"WCH",
+        "homepage": "http://www.wch.cn/products/CH32X035.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/CH32X035.git"
+    },
+    "series":["CH32X035"],
+    "package":["QFN16","QFN20","QFN28"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "price":[0.7,2.1],
+    "keywords": [
+        "RISC-V",
+        "RISC-V3C",
+        "WCH",
+        "CH32X035",
+        "USB","CMP","I2C","UART","SPI",
+        "5.0V","3.3V"
+    ]
+}
